@@ -1,0 +1,98 @@
+/*General CSS*/
+body{
+padding-top:100px;                       /*for top spacing of the body*/
+font-family:Arial, sans-serif;			/*  font for the body*/
+color:#333;
+}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size:30px;
+}
+h1,h2{
+	margin-top:20px;
+	margin-bottom:10px;
+	font-weight:normal;
+}
+p{
+	font-size:14px;
+	line-height:21px ;     /*150  of font-size*/
+	margin-bottom:20px;
+}
+.main-container{
+	width:100%; /*the width of the main container is 100% of the boxes*/
+margin:0, auto;/*this is for center alignment,top and bottom is 0 and left and right is auto*/
+  }
+.single-row{
+	width:100%; /*100 percent of main container*/	
+}
+/*Header*/
+.col-left{
+	width:63%;
+}
+.col-left img{
+	border-radius:6px;
+	width:100% /*100% of col-left space*/
+	
+}
+.col-right{
+	width:32%;
+}
+.col-left,.col-right{
+float:left;	
+padding-left:15px;
+padding-right:15px;
+
+}
+.clear-fix{
+	clear:both;  /*This clears the floating issue*/
+}
+.btn1{
+	padding:10px 16px;
+	font-size:18px;
+	line-height:28px;
+	border-radius:6px;
+	color:white;
+	background-color:blue;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+}
+	hr{
+		margin-top:20px;
+		margin-bottom:20px;
+		border:0;
+		border:0;
+		border-top:1px solid #eee;
+		
+	}
+	/*features*/
+.col-1,.col-2,.col-3{
+	width:30%;  /*each of this column should occupy  30% of single row and sud flow to left*/
+	float:left;
+	padding-left:15px;   /*for spacing*/
+	padding-right:15px;
+}
+.btn-info{
+	padding: 6px 12px; /*6px top and bottom, 12px left and right*/
+	background-color:white;
+	border:2px solid #CECECE;
+	text-decoration:none;
+	font-size:14px;
+	line-height:21px;
+	color:#333; 
+	display:inline-block;
+	font-weight:normal;
+	cursor:pointer;
+	border-radius:4px 
+}
+.btn-info:hover{
+	color:#333;
+	background-color:red;
+	border-color:#adadad;
+}
+/*footer*/
+.col-footer{
+	padding:30px 0px;
+}
